@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Product list with cart</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <script src="./script.js" defer type="module"></script>
+  </head>
+  <body class="flex">
+    <div class="wrapper">
+      <div class="container">
+        <header class="flex">
+          <h1>Desserts</h1>
+          <div class="cart">
+            <img src="./assets/images/icon-add-to-cart.svg" alt="" />
+            <span class="cart-count t-sm hide">0</span>
+            <div class="card hide">
+              <div class="items">
+                <!-- items -->
+              </div>
+
+              <div class="total flex">
+                <p class="t-sm">Order Total</p>
+                <strong class="t-sm">$45.50</strong>
+              </div>
+
+              <div class="carbon t-xs">
+                This is a <strong>carbon-neutral</strong> delivery
+              </div>
+              <div class="btn btn-order t-sm scale">Confirm Order</div>
+              <!-- 
+                <div class="empy-cart">
+                  <img src="./assets/images/illustration-empty-cart.svg" alt="" />
+                  <blockquote class="t-md">
+                    Your added items will appear here!
+                  </blockquote>
+                </div>
+                -->
+            </div>
+          </div>
+        </header>
+        <div class="products grid animate">
+          <!-- products -->
+        </div>
+      </div>
+      <div class="success card hide">
+        <img src="./assets/images/icon-order-confirmed.svg" alt="" />
+        <h2>Order Confirmed</h2>
+        <p class="t-sm">We hope you enjoy your food.</p>
+        <strong class="success-total t-sm">$200</strong>
+
+        <button class="btn-dismiss scale t-sm">Dismiss</button>
+      </div>
+    </div>
+  </body>
+</html>
